@@ -2,7 +2,7 @@
   <div>
     <div class="panel panel-warning fl">
       <div class="panel-heading">
-        <span v-show="!flag">书名：{{book.bookName}}</span>
+        书名：<span v-show="!flag">{{book.bookName}}</span>
         <input type="text" v-model="book.bookName" v-show="flag">
       </div>
       <div class="panel-body text-center">
